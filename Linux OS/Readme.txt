@@ -1,2 +1,2 @@
-Info about Linux OC //
+Info about Linux OS //
 -------------------
