@@ -1,31 +1,192 @@
+Вид БД : 
 Реляционные
-
 Ключ-значение
-
 Документо-ориентированные
-
 Базы данных временных рядов
-
 Графовые базы данных
-
 Поисковые базы данных (Search Engines)
-
 Объектно-ориентированные базы данных
-
 RDF (Resource Description Framework)
-
 Wide Column Stores
-
 Мультимодальные СУБД
-
 Native XML СУБД
-
 GEO/GIS (пространственные) и специализированные  СУБД
-
 Event СУБД (баз данных переходов состояний)
-
 Контентные СУБД
-
 Навигационные (Navigational) СУБД
-
 Векторные базы данных
+------------------------------------------
+
+Oracle - реляционная, мультимодальная
+MySQL - реляционная, мультимодальная
+Microsoft SQL Server -реляционная, мультимодальная
+PostgreSQL - реляционная, мультимодальная
+IBM Db2Relational - мультимодальная 
+Microsoft Access - реляционная
+SQLite - реляционная
+Snowflake - реляционная
+MariaDB - реляционная, мультимодальная
+Microsoft Azure SQL Database - реляционная, мультимодальная
+Hive - реляционная
+Databricks - мультимодальная
+Teradata - реляционная, мультимодальная
+Google BigQuery - реляционная
+FileMaker - реляционная
+SAP HANA - реляционная, мультимодальная
+SAP Adaptive Server - реляционная
+Microsoft Azure Synapse Analytics - реляционная
+Firebird - реляционная
+Informix - реляционная, мультимодальная
+Amazon Redshift - реляционная
+Impala - реляционная, мультимодальная
+Spark SQL - реляционная
+ClickHouse - реляционная, мультимодальная
+Netezza - реляционная
+Vertica - реляционная
+Presto - реляционная
+dBASE - реляционная
+Apache Flink - реляционная
+Greenplum - реляционная, мультимодальная
+Amazon Aurora - реляционная, мультимодальная
+H2 - реляционная, мультимодальная
+Oracle Essbase - реляционная
+Microsoft Azure Data Explorer - реляционная, мультимодальная
+Microsoft Azure Data Explorer - реляционная, мультимодальная 
+CockroachDB - реляционная
+Derby - реляционная
+Interbase - реляционная
+Trino - реляционная, мультимодальная
+SingleStore - реляционная, мультимодальная
+SAP SQL Anywhere - реляционная
+Ingres - реляционная
+HyperSQL - реляционная
+Ignite - мультимодальная
+SAP IQ - реляционная
+Virtuoso - мультимодальная
+OpenEdge - реляционная
+Oracle NoSQL - мультимодальная
+Google Cloud Spanner - реляционная
+YugabyteDB - реляционная, мультимодальная
+MaxDB - реляционная
+TiDB - реляционная, мультимодальная
+Apache Druid - мультимодальная
+InterSystems Caché - мультимодальная
+InterSystems IRIS - мультимодальная
+DuckDB - реляционная
+SAP Advantage Database Server - реляционная
+HEAVY.AI - реляционная, мультимодальная
+4D - реляционная
+Percona Server for MySQL - реляционная
+EDB Postgres - реляционная
+Apache Drill - мультимодальная
+EXASOL - реляционная
+Apache Phoenix - реляционная
+Citus - реляционная, мультимодальная
+Datomic - реляционная
+Empress - реляционная
+GridGain - мультимодальная
+OceanBase - реляционная, мультимодальная
+MonetDB - реляционная, мультимодальная
+VoltDB - реляционная
+Tibero - реляционная
+TimesTen - реляционная
+IBM Db2 warehouse - реляционная
+SQLBase - реляционная
+Firebolt - реляционная
+Fauna - мультимодальная
+mSQL - реляционная
+MatrixOne - реляционная
+DataEase - реляционная
+Oracle Rdb - реляционная
+Altibase - реляционная
+PlanetScale - реляционная, мультимодальная
+NonStop SQL - реляционная
+Cubrid - реляционная
+Infobright - реляционная
+Apache Kylin - реляционная
+GBase - реляционная
+Apache HAWQ - реляционная
+NuoDB - реляционная
+Dolt - реляционная, мультимодальная
+solidDB - реляционная
+FoundationDB - мультимодальная
+1010data - реляционная
+openGauss - реляционная, мультимодальная
+HFSQL - реляционная
+Actian Vector - реляционная
+SQL.JS - реляционная
+OpenBase - реляционная
+Vitess - реляционная, мультимодальная
+Kognitio - реляционная
+StarRocks - реляционная
+TDSQL for MySQL - реляционная, мультимодальная
+DBISAM - реляционная
+FrontBase - реляционная
+TypeDB - мультимодальная
+NexusDB - реляционная
+Datacom/DB - реляционная
+Kinetica - реляционная, мультимодальная
+eXtremeDB - мультимодальная
+ScaleArc - реляционная
+VistaDB - реляционная
+Yellowbrick - реляционная
+Splice Machine - реляционная
+Postgres-XL - реляционная, мультимодальная
+Alibaba Cloud MaxCompute - реляционная
+AlaSQL - мультимодальная
+Apache Pinot - реляционная
+Alibaba Cloud AnalyticDB for MySQL - реляционная, мультимодальная
+SQream DB - реляционная
+Sequoiadb - мультимодальная
+Kingbase - реляционная, мультимодальная
+Trafodion - реляционная
+R:BASE - реляционная
+Apache Doris - реляционная
+Transbase - реляционная
+Lovefield - реляционная
+Raima Database Manager - мультимодальная
+Alibaba Cloud AnalyticDB for PostgreSQL - реляционная
+Tajo - реляционная
+Mimer SQL - реляционная
+Kyligence Enterprise - реляционная
+YDB - мультимодальная
+Databend - реляционная
+Actian PSQL - реляционная
+Alibaba Cloud ApsaraDB for PolarDB - реляционная
+Brytlyt - реляционная
+XtremeData - реляционная
+TransLattice - реляционная
+ElevateDB - реляционная
+Comdb2 - реляционная
+Linter - реляционная, мультимодальная
+AntDB - реляционная
+FeatureBase - реляционная
+LeanXcale - Multi-model
+PipelineDB - реляционная
+GeoSpock - реляционная, мультимодальная
+Faircom DB - мультимодальная
+Tibco ComputeDB - реляционная
+Valentina Server - реляционная
+PieCloudDB - реляционная
+BigObject - реляционная
+Edge Intelligence - реляционная
+Fujitsu Enterprise Postgres - реляционная, мультимодальна
+EsgynDB - реляционная
+Transwarp KunDB - реляционная
+JethroData - реляционная
+MyScale - мультимодальная
+OushuDB - реляционная
+AgensGraph - мультимодальная
+SmallSQL - реляционная
+ActorDB - реляционная
+DaggerDB - реляционная
+EdgelessDB - реляционная
+K-DB - реляционная
+Sadas Engine - реляционная
+Postgres Pro - доработанный под корпоративные задачи PostgreSQL.
+Jatoba - как и вариант выше, основана на PostgreSQL.
+Квант-Гибрид - еще один вариант PostgreSQL.
+Ред - СУБД на базе Interbase/Firebird
+ProximaBD - на основе  PostgreSQL.
+Arenadata DB - корпоративное решение на основе Greenplum 
+YDB - serverless решение от Яндекса. Это Open Source продукт, который доступен в том числе как для on-premise инсталляций, так и как управляемый сервис с dedicated/serverless моделью потребления.
