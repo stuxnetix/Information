@@ -190,3 +190,219 @@ Jatoba - как и вариант выше, основана на PostgreSQL.
 ProximaBD - на основе  PostgreSQL.
 Arenadata DB - корпоративное решение на основе Greenplum 
 YDB - serverless решение от Яндекса. Это Open Source продукт, который доступен в том числе как для on-premise инсталляций, так и как управляемый сервис с dedicated/serverless моделью потребления.
+------------------------------
+Redis - Key-value, мультимодальная
+Amazon DynamoDB - мультимодальная
+Microsoft Azure Cosmos DB - мультимодальная
+Memcached - Key-value
+etcd - Key-value
+Hazelcast - Key-value, мультимодальная
+Aerospike - мультимодальная
+Ehcache - Key-value
+Riak KV - Key-value
+Ignite - мультимодальная
+OrientDB - мультимодальная
+Google Cloud Bigtable - мультимодальная
+GemFire - Key-value, мультимодальная
+ArangoDB - мультимодальная
+Infinispan - Key-value
+Oracle NoSQL - мультимодальная
+RocksDB Key-value
+Oracle Berkeley DB - мультимодальная
+InterSystems Caché - мультимодальная
+InterSystems IRIS - мультимодальная
+LevelDB - Key-value
+LMDB - Key-value
+Geode - Key-value
+Amazon SimpleDB - Key-value
+Geode - Key-value
+Amazon SimpleDB - Key-value
+Oracle Coherence - Key-value
+GridGain - мультимодальная
+Tarantool - Key-value, мультимодальная
+GT.M - Key-value
+ZODB - Key-value
+FoudationDB - мультимодальная
+NCache - Key-value
+WebSphere eXtreme Scale - Key-value
+Hibari - Key-value
+MapDB - Key-value
+BoltDB - Key-value
+Graph Engine - мультимодальная
+Scalaris - Key-value
+KeyDB - Key-value
+Project Voldemort - Key-value
+Upscaledb - Key-value
+Cloudflare Workers KV - Key-value
+Elliptics -  Key-value
+Tokyo - Tyrant - Key-value
+LeanXcale - мультимодальная
+Immudb - Key-value, мультимодальная
+STSdb - Key-value
+TomP2P - Key-value
+ArcadeDB - мультимодальная
+Speedb Key-value
+Faircom DB - мультимодальная
+Kyoto Tycoon - Key-value
+Skytable - Key-value
+HyperLevelDB - Key-value
+YTsaurus - мультимодальная
+InfinityDB - Key-value
+Tigris - мультимодальная
+Badger - Key - value
+Dragonfly - Key - value
+LedisDB - Key-value
+TerarkDB - Key-value
+Cachelot.io - Key-value
+ScaleOut StateServer - Key-value
+JaguarDB - Key-value
+Resin Cache - Key-value
+Faircom EDGE - мультимодальная
+SwayDB - Key-value
+BergDB - Key-value
+CortexDB - мультимодальная
+Helium - Key-value
+Tkrzw - Key-value
+----------------------------
+MongoDB - Документо-ориентированная, мультимодальная
+Amazon DynamoDB - мультимодальная
+Databricks - мультимодальная
+Microsoft Azure Cosmos DB - мультимодальная
+Couchbase - Документо-ориентированная, мультимодальная
+Firebase Realtime Database - Документо-ориентированная
+CouchDB - Документо-ориентированная, мультимодальная
+Google Cloud Firestore - Документо-ориентированная
+MarkLogic - мультимодальная
+Realm - Документо-ориентированная
+Aerospike - мультимодальная
+Google Cloud Datastore - Документо-ориентированная
+Virtuoso - мультимодальная
+OrientDB - мультимодальная
+ArangoDB - мультимодальная
+RavenDB - Документо-ориентированная, мультимодальная
+Oracle NoSQL - мультимодальная
+IBM Cloudant - Документо-ориентированная
+RethinkDB - Документо-ориентированная, мультимодальная
+InterSystems IRIS - мультимодальная
+PouchDB - Документо-ориентированная
+CloudKit - Документо-ориентированная
+Apache Drill - мультимодальная
+Amazon DocumentDB - Документо-ориентированная
+Mnesia - Документо-ориентированная
+LiteDB - Документо-ориентированная
+Fauna - мультимодальная
+Datameer - Документо-ориентированная
+GigaSpaces - мультимодальная
+FoundationDB - мультимодальная
+AllegroGraph - мультимодальная
+HPE Ezmeral Data Fabric - мультимодальная
+CrateDB - мультимодальная
+LokiJS - Документо-ориентированная
+BigchainDB - Документо-ориентированная
+AlaSQL - мультимодальная
+SurrealDB - мультимодальная
+Sequoiadb - мультимодальная
+Percona Server for MongoDB - Документо-ориентированная
+HarperDB - Документо-ориентированная
+EJDB - Документо-ориентированная
+YDB - мультимодальная
+ArcadeDB - мультимодальная
+Bangdb - мультимодальная
+XTDB - Документо-ориентированная
+YTsaurus - мультимодальная
+OrigoDB - мультимодальная
+WhiteDB - Документо-ориентированная
+ToroDB - Документо-ориентированная
+SenseiDB - Документо-ориентированная
+Acebase - Документо-ориентированная
+iBoxDB - Документо-ориентированная
+RaptorDB - Документо-ориентированная
+NosDB - Документо-ориентированная
+CortexDB - мультимодальная
+JasDB - Документо-ориентированная
+--------------------------------
+InfluxDB - Time Series, мультимодальная
+Kdb - мультимодальная 
+Prometheus - Time Series
+Graphite - Time Series
+TimescaleDB - Time Series, мультимодальная 
+DolphinDB - Time Series, мультимодальная
+RRDtool - Time Series
+Apache Druid - мультимодальная
+TDengine - Time Series, мультимодальная
+QuestDB - Time Series, мультимодальная 
+OpenTSDB - Time Series
+GridDB - Time Series, мультимодальная
+Fauna - мультимодальная
+VictoriaMetrics - Time Series
+Amazon Timestream - Time Series
+M3DB - Time Series
+Heroic - Time Series
+eXtremeDB - мультимодальная 
+CrateDB - мультимодальная
+Apache IoTDB - Time Series
+KairosDB - Time Series
+ITTIA - Time Series, мультимодальная
+Raima Database Manager - мультимодальная
+Axibase - Time Series
+Riak TS - Time Series
+Machbase - Time Series
+CnosDB - Time Series
+ArcadeDB - мультимодальная
+Bangdb - мультимодальная
+IRONdb - Time Series
+Quasardb - Time Series
+SiteWhere - Time Series
+NSDb - Time Series
+Alibaba Cloud TSDB - Time Series
+IBM Db2 Event Store - мультимодальная 
+Tigris - мультимодальная
+GreptimeDB - Time Series
+Hawkular Metrics - Time Series
+SiriDB - Time Series
+Blueflood - Time Series
+Warp 10 -Time Series
+Yanza - Time Series
+Newts - Time Series
+---------------------------
+Neo4j - графовая
+Microsoft Azure Cosmos DB - мультимодальная
+Virtuoso - мультимодальная
+OrientDB - мультимодальная
+ArangoDB - мультимодальная
+Memgraph - графовая
+GraphDB - мультимодальная
+Amazon Neptune - мультимодальная
+JanusGraph - графовая
+Stardog - мультимодальная
+NebulaGraph - графовая
+TigerGraph - графовая
+Fauna - мультимодальная
+Giraph - графовая
+Dgraph - графовая
+AllegroGraph - мультимодальная
+Blazegraph - мультимодальная
+TypeDB - мультимодальная
+Graph Engine - мультимодальная
+SurrealDB - мультимодальная
+InfiniteGraph - графовая
+FlockDB - графовая
+HyperGraphDB - графовая
+Fluree - графовая
+AnzoGraph DB - мультимодальная
+Sparksee - графовая
+HugeGraph - графовая
+GraphBase - графовая
+ArcadeDB - мультимодальная
+Bangdb - мультимодальная
+RDFox - мультимодальная
+Ultipa - графовая
+TinkerGraph - графовая
+TerminusDB - графовая, мультимодальная
+AgensGraph - мультимодальная
+Galaxybase - графовая
+VelocityDB - мультимодальная
+HGraphDB -графовая
+Transwarp StellarDB - графовая
+--------------------------------
+https://habr.com/ru/companies/amvera/articles/754702/
