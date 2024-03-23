@@ -1,0 +1,6 @@
+nucleus-burp-extension - https://github.com/portswigger/nucleus-burp-extension - плагин для интеграции Nuclei , запускается отдельно
+nuclei-burp-plugin - https://github.com/projectdiscovery/nuclei-burp-plugin - плагин для генерации шаблонов .yaml для Nuclei
+nuclei-burp-integration - https://github.com/portswigger/nuclei-burp-integration - интеграция Nuclei расширенная , результаты сканера Nuclei добавляются в SiteMap Info Burp'a.
+js-link-finder - https://github.com/PortSwigger/js-link-finder - плагин для анализа js-файлов на предмет ссылок , эндпоинтов для дальнейшего изучения , работает в режиме сканирования. 
+GAP-Burp-Extension - https://github.com/xnl-h4ck3r/GAP-Burp-Extension - плагин для парсинга всевозможных ссылок , эндпоинтов с карты сайта , имеет множество опций.
+SecretFinder - https://github.com/m4ll0k/SecretFinder - плагин для поиска по регулярным выражениям в js файлах различного рода чувствительной информации. Можно добавить свои выражения. 
