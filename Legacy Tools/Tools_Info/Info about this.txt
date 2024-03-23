@@ -1,0 +1,11 @@
+//Info
+1) Git Bash - удобная прила для работы с Гитхаб , репо , основной + дает запускать bash из интерактивного меню (Windows) , понимает все команды Linux. 
+https://git-scm.com/downloads
+2) Visual Studio Code - Текстовый редактор , огромный потенциал , много расширений , альтернатива Notepad ++ 
+https://code.visualstudio.com/download
+3) NikFileTree - Строит дерево каталогов и сохраняет его в текстовом файле.
+https://www.niksoft.ru/rus/programs/nikfiletree.htm
+4) Docker - масштабная программа для развертывания микросервисов в контейнерах , без установки их в систему. 
+https://www.docker.com/
+5) Kubernetes - программа кластеризации и автоматизации контейнеров. 
+https://kubernetes.io/ru/
