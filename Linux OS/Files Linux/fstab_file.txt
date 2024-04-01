@@ -1,0 +1,35 @@
+Файл fstab 
+------------
+Расположение /etc/fstab
+------------
+Файл fstab - это текстовый файл, который содержит информацию о различных файловых системах и устройствах хранения информации в вашем компьютере. Это всего лишь один файл, определяющий, как диск и/или раздел будут использоваться и как будут встроены в остальную систему. 
+Этот файл можно открыть в любом текстовом редакторе, но редактировать его возможно только от имени суперпользователя, т.к. файл является важной, неотъемлемой частью системы, без него система не загрузится.
+------------
+sudo gedit /etc/fstab
+sudo cat /etc/fstab
+sudo nano /etc/fstab
+sudo vi /etc/fstab
+-------------
+Перед редактированием рекомендуется создать бэкап - sudo cp /etc/fstab /etc/fstab_back
+-------------
+Пример файла fstab c примонтированными Windows-дисками sda3 (С:) и sda4 (D:):
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+proc            /proc           proc    defaults        0       0
+# / was on /dev/sda1 during installation
+UUID=7211313d-8b5e-4b96-be63-5dbbeb97f590 /               ext4    errors=remount-ro 0       1
+# swap was on /dev/sda2 during installation
+UUID=8ef72438-830b-485f-8de5-b0f6242eff91 none            swap    sw              0       0
+# Windows disc (FAT32) C:\
+/dev/sda3 /media/D642D91542D8FAE7 vfat shortname=mixed,codepage=850,umask=002,uid=1000,gid=100,noauto,user 0 0
+# Windows disc (NTFS) D:\
+/dev/sda4 /media/BA1AF3B41AF36C2F ntfs-3g rw,nosuid,nodev,allow_other,default_permissions,blksize=4096 0 0
+#/dev/sdb1
+UUID=54AE4096AE407292           /mnt/backup     ntfs-3g         defaults,windows_names,locale=en_US.utf8 0 0
+--------------
+Файловые системы: ext4 , swap - файл подкачки , btrfs ->B-tree file system 
+ext - линукс системы
+hfsplux - Apple системы
+ntfs-3g - Microsoft NTFS
+vfat - Microsoft FAT16,32
+iso9660 - CD/DVD
+udf - Flash Discs
