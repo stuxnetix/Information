@@ -1,0 +1,7 @@
+Если после установки не обновляется Proxmox (ошибка 100) , нужно открыть консоль - cd /etc/apt | cd sources.list.d/ | vi pve-enterprise.list и закомментировать # (в начале строки)
+
+
+
+При установке Ubuntu Server нужно добавить QEMU Guest Agent (гостевого агента) в Proxmox поставить отметку на Включено , в консоли сервера же установить - sudo su , apt update , 
+install apt get qemu-guest-agent
+Выключить сервер poweroff 
