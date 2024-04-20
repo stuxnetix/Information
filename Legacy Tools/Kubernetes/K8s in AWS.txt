@@ -1,0 +1,24 @@
+K8s в Amazon (AWS)
+Первое что нужно установить 3 приложения - aws cli , kubectl , eksctl (elastic container service)
+
+awscli - нужен для аутентификации и запуска команд aws
+kubectl - для управления К8 кластером 
+eksctl - для создания К8 кластера
+
+Установка под ubuntu , если стоит python имеет смысл запустить через pip3
+sudo su - что бы установить для всех пользователей
+pip3 install awscli --upgrade 
+
+Создать папку для остальных бинарников mkdir k8 -> cd k8 , распаковать eksctl в эту папку
+kubectl установится , но будет без прав запуска , ввести -> chmod +x kubectl
+После добавить Path (путь для запуска) -> echo "export PATH=$PATH:/k8/" >> /etc/bash.bashrc
+exit -> exit (выйти из под рута и перезапустить терминал)
+
+Позже экспортировать Acces Key ID , Secret Acces Key , Aws Default regin в терминале 
+export AWS_ACCES_KEY_ID=xxxx // example
+
+aws s3 -> проверить настройки с облаком
+
+eksctl create cluster --name NAME - создать кластер с именем , в амазоне все появится , можно работать.
+eksctl delete cluster --name NAME - удалить (желательно всегда удалять , если не нужен кластер)
+eksctl create cluster -f name.yaml - создать кластер из файла (сконфигурированном)

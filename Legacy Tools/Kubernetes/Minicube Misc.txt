@@ -1,0 +1,14 @@
+После установки minikube на windows выходит ошибка: Unable to resolve the current Docker CLI context "default": context "default": context not found
+Открыть CMD и прописать docker context use default - это обновит параметры
+
+minicube start - запустит кластер миникуба , сначала скачает , потом установит и развернет. Ошибок быть не должно.
+Если нет wsl , установить VirtualBox , запустить его , скачается образ и сам добавится.
+
+kubectl get componentstatuses - проверить состояние кластера
+kubectl cluster-info , посмотреть адреса и ip запущенного кластера (первая команда при работе с кубером)
+kubectl get nodes  - информация о нодах , версии
+minicube start --cpus=4 --memory=4000mb or 4gb --disk-size=40000mb or 40gb (параметры для создания кластера)
+minicube remove - удалить кластер , но образ и скачанное сохранится
+minicube stop - остановить кластер (данные сохранятся)
+Что бы подключится к кластеру в cmd ввести minicube ssh - зайдете под логином Docker , выйти exit
+Имя по умолчанию Docker pwd:tcuser / root без пароля 

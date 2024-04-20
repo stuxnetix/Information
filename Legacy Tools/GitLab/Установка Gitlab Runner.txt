@@ -1,0 +1,11 @@
+
+
+После установки Раннера у клиента нужно задать 
+SERVER=gitlab.net.home
+PORT=443
+CERTIFICATE=/etc/gitlab-runner/certs/${SERVER}.crt
+mkdir -p $(dirtname "$CERTIFICATE")
+openssl s_client -connect ${SERVER}:${PORT} -showcerts </dev/null 2>/dev/null | sed -e '/-----BEGIN/,/-----END/!d' | sudo tee "$CERTIFICATE" >/dev/null
+gitlab-runner register --tls-ca-file="$CERTIFICATE" 
+после регистрации указать домен , токен и тип выполнения - shell (обычно у клиента) , у главного сервера Docker
+У сервера же после указания Docker , выбрать образ Ubuntu 20.04
